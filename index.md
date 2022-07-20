@@ -15,6 +15,12 @@ A policy improves solely by changing actions in probing states, following the gr
 Surprisingly, it is possible to clone the behavior of a near-optimal policy in Swimmer-v3 and Hopper-v3 environments only by knowing how to act in 3 and 5 such learned states, respectively. 
 Remarkably, our value function trained to evaluate NN policies is also invariant to changes of the policy architecture: we show that it allows for zero-shot learning of linear policies competitive with the best policy seen during training. 
 
+## [Paper](https://arxiv.org/abs/2207.01566) 
+## [Code](https://github.com/IDSIA/policyevaluator)
+
+
+<br />
+
 {% assign img_size = 95 %}
 
 # Probing States Visualization
